@@ -1,10 +1,14 @@
 {
-    "name": "comocode/laravel-ab",
+    "name": "tobi76/laravel-ab",
     "description": "Blade level AB tests for Laravel 5",
     "keywords": ["laravel", "ab", "ab tests"],
     "type": "library",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Tobias Tuschen",
+            "email": "tobias.tuschen@gmx.de"
+        },	
         {
             "name": "Rulian Estivalletti",
             "email": "rulian.estivalletti@gmail.com"
@@ -18,5 +22,8 @@
             "ComoCode\\LaravelAb\\": "src"
         }
     },
-    "require": {}
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.0 || ~5.0 || ~5.1 || ~5.2"	
+	}
 }
